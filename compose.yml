@@ -1,0 +1,8 @@
+services:
+  download-speed-exporter:
+    build: .
+    container_name: download-speed-exporter
+    env_file: .env
+    ports:
+      - "${EXPORTER_PORT}:${EXPORTER_PORT}"
+    restart: unless-stopped

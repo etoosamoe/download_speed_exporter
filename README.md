@@ -12,6 +12,9 @@ An exporter for monitoring file download speeds. When you request the `/probe` e
 
 ## Running
 
+> [!NOTE]
+> [WIP] Public Docker image
+
 ### Docker Compose (recommended)
 
 Create config file:
